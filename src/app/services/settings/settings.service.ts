@@ -16,12 +16,10 @@ export class SettingsService {
    }
 
   guardarAjuste() {
-    console.log('Guardado en el localStarage');
     localStorage.setItem('ajustes', JSON.stringify(this.ajustes));
   }
 
-  cargarAjustes() {
-    console.log('Cargando de localStorage');
+  cargarAjustes() { 
     if ( localStorage.getItem('ajustes')) {
       this.ajustes = JSON.parse(localStorage.getItem('ajustes'));
 
