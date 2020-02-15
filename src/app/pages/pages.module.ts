@@ -11,6 +11,8 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component'; 
 import { from } from 'rxjs';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +21,9 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
     ProgressComponent,
     Graficas1Component,
     IncrementadorComponent,
-    AccoutSettingsComponent
+    AccoutSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
 
     ],
     exports: [
